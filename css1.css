@@ -1,0 +1,41 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  column-width: 21em;
+  column-gap: 5em;
+  column-rule: 1px solid #ccc;
+}
+.title {
+    font-family: Arial, sans-serif;
+    font-size: 4rem;
+}
+
+.title__text {
+    color: #fa709a;
+
+    background: linear-gradient(to top, #fa709a, #fee140);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+html, body {
+    height: 1000px;
+}
+
+body {
+    margin: 0;
+
+    background: linear-gradient(-45deg, #191654, #43C6AC);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
